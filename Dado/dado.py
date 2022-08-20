@@ -13,8 +13,8 @@ window = 0
 
 # Rotations for cube. 
 xrot = yrot = zrot = 0.1
-dx = 0
-dy = 0
+dx = 0.01
+dy = 0.01
 dz = 0
 
 def LoadTextures():
