@@ -106,7 +106,7 @@ def DrawGLScene():
         glEnd()                # Done Drawing The Cube
     
         phi += dphi
-        print("X, y, Z ",dx, dy,dz)
+        
         xrot = xrot + dx                # X rotation
         yrot = yrot + dy                # Y rotation
         zrot = zrot + dz                # Z rotation
