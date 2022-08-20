@@ -15,7 +15,7 @@ window = 0
 # Rotations for sphere. 
 xrot = yrot = zrot = 0
 dx = 0
-dy = 0
+dy = 0.01
 dz = 0
 
 # sphere variable
@@ -115,7 +115,6 @@ def DrawGLScene():
 
 def keyPressed(tecla, x, y):
     global dx, dy, dz
-    print(tecla == b'x')
     if tecla == ESCAPE:
         glutLeaveMainLoop()
     elif tecla == b'x' or tecla == b'X':
@@ -134,22 +133,18 @@ def keyPressed(tecla, x, y):
 def teclaDeRotacao(tecla, x, y):
     global xrot, yrot, zrot, dx, dy, dz
     if tecla == GLUT_KEY_LEFT:
-        print ("ESQUERDA")
         dx = -0                 
         dy = -0.01              
         dz = -0                     
     elif tecla == GLUT_KEY_RIGHT:
-        print ("DIREITA")
         dx = 0              
         dy = 0.01            
         dz = 0                 
     elif tecla == GLUT_KEY_UP:
-        print ("CIMA")
         dx = 0.01              
         dy = 0           
         dz = 0       
     elif tecla == GLUT_KEY_DOWN:
-        print ("BAIXO")
         dx = -0.01               
         dy = -0         
         dz = -0       

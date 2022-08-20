@@ -136,22 +136,18 @@ def keyPressed(tecla, x, y):
 def teclaDeRotacao(tecla, x, y):
     global xrot, yrot, zrot, dx, dy, dz
     if tecla == GLUT_KEY_LEFT:
-        print ("ESQUERDA")
         dx = -0                 
         dy = -0.01              
         dz = -0                     
     elif tecla == GLUT_KEY_RIGHT:
-        print ("DIREITA")
         dx = 0              
         dy = 0.01            
         dz = 0                 
     elif tecla == GLUT_KEY_UP:
-        print ("CIMA")
         dx = 0.01              
         dy = 0           
         dz = 0       
     elif tecla == GLUT_KEY_DOWN:
-        print ("BAIXO")
         dx = -0.01               
         dy = -0         
         dz = -0       
@@ -169,6 +165,5 @@ def main():
     glutSpecialFunc(teclaDeRotacao)
     InitGL(640, 480)
     glutMainLoop()
-
 
 main()
