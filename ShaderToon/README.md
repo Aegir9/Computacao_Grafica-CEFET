@@ -10,12 +10,15 @@ Para que seja possível execultar o código é necessário ter o Python 3 instal
 
 Caso ainda não tenha, é possível instalá-los com o pip3 utilizando os seguintes comandos:
 
-`pip3 install -U pysdl2`
+`pip install -U pysdl2`
 
-`pip3 install pysdl2-dll`
+`pip install pysdl2-dll`
 
-`pip3 install pyopengl`
+`pip install pyopengl`
 
-`pip3 install pyglm`
+`pip install pyglm`
 
-Para abrir o programa é necessário estar dentro da pasta pelo Terminal e utilizar o Python 3 para abri-lo. EX: `Python3 .\TeapotTextureApp.py`.
+Para abrir o programa é necessário estar dentro da pasta pelo Terminal e utilizar o Python 3 para abri-lo. EX: `Python .\TeapotTextureApp.py`.
+
+### Referência do Shader:
+- [Toon Shader - https://www.lighthouse3d.com/tutorials/glsl-12-tutorial/toon-shader-version-ii/](https://www.lighthouse3d.com/tutorials/glsl-12-tutorial/toon-shader-version-ii/)
