@@ -1,6 +1,7 @@
-# LISTA 02 - Questão 5
+# LISTA 02 - Questão 6
 
 ## Shader no "novo" opengl:
+![Execução do TeapotToonApp.py](https://cdn.discordapp.com/attachments/589988846465450013/1012450485753614427/unknown.png)
 Para que seja possível execultar o código é necessário ter o Python 3 instalado no computador e as seguintes bibliotecas e programas: 
 - pyopengl 
 - pysdl2-dll 
